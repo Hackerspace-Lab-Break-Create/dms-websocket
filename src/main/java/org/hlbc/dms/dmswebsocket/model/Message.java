@@ -3,9 +3,8 @@ package org.hlbc.dms.dmswebsocket.model;
 import lombok.Data;
 
 @Data
-public class RawCommand {
-
-  private String to;
+public class Message {
   private String from;
-  private String message;
+  private String to;
+  private String text;
 }
